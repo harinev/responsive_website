@@ -1,23 +1,38 @@
 body {
 background-color: blueviolet;
+margin: 25%
 }
-@media only screen and (max-width:900px){
+p{
+    margin-left:5%;
+    margin-right:5%
+}
+@media only screen and (min-width:600px){
+    body {
+        background-color:yellowgreen;
+        margin:25%
+    }
+}
+@media only screen and (max-width:1200px){
     body {
         background-color: pink;
+        margin:20%
+    }
+}
+@media only screen and (max-width:1000px){
+    body {
+        background-color: white;
+        margin: 20%
     }
 }
 @media only screen and (max-width:800px){
     body {
-        background-color: white;
-    }
-}
-@media only screen and (max-width:700px){
-    body {
         background-color:green;
+        margin: 10%
     }
 }
-@media only screen and (max-width:600px){
-    body {
+/* @media only screen and (max-width:500px){ */
+    /* body {
         background-color: orange;
+        margin:3%
     }
-}
+} */
