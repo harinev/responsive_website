@@ -1,0 +1,23 @@
+body {
+background-color: blueviolet;
+}
+@media only screen and (max-width:900px){
+    body {
+        background-color: pink;
+    }
+}
+@media only screen and (max-width:800px){
+    body {
+        background-color: white;
+    }
+}
+@media only screen and (max-width:700px){
+    body {
+        background-color:green;
+    }
+}
+@media only screen and (max-width:600px){
+    body {
+        background-color: orange;
+    }
+}
